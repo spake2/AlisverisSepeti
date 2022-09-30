@@ -1,0 +1,95 @@
+.bg-black {
+  background-color: black;
+}
+.bg-light-black {
+  background-color: #262626 !important;
+}
+.text-black {
+  color: black;
+}
+.text-light-black {
+  color: #262626;
+}
+.bg-dark-primary {
+  background-color: #fcbc73 !important;
+}
+.text-dark-primary {
+  color: #fcbc73 !important;
+}
+
+.bg-light {
+  background-color: white;
+}
+.bg-light-2 {
+  background: #1488cc; 
+  background: -webkit-linear-gradient(
+    to top,
+    #2b32b2,
+    #1488cc
+  ); 
+  background: linear-gradient(
+    to top,
+    #2b32b2,
+    #1488cc
+  ); 
+}
+.bg-light-primary {
+  background-color: #191659 !important;
+}
+.text-light-primary {
+  color: #191659 !important;
+}
+
+
+
+
+a {
+  text-decoration: none !important;
+}
+
+.card {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+td {
+  vertical-align: middle;
+}
+
+td:first-of-type {
+  padding: 0 !important;
+}
+
+td:not(:first-child) {
+  padding: 3.5rem !important;
+}
+
+button.btn-primary:hover {
+  background-color: orange !important;
+}
+
+button.bg-dark-primary:hover {
+  background-color: white !important;
+}
+
+@media (max-width: 768px) {
+  div.navbar-nav{
+    display:inline-block !important;
+    padding-top: 1rem;
+  }
+  span.basket{
+    margin-left: 0.2rem !important;
+  }
+  div.py-2,div.p-0{
+    text-align: center;
+  }
+  button.ms-2{
+    margin-left: 1rem !important;
+  } 
+  a.nav-link {
+    display: inline-block !important;
+  }
+  a.align-items-center {
+    display: inline-block !important;
+  }
+}
+  
